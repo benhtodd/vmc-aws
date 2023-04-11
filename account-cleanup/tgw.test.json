@@ -1,0 +1,62 @@
+{
+    "TransitGateways": [
+        {
+            "TransitGatewayId": "tgw-00586e7e9521682ab",
+            "TransitGatewayArn": "arn:aws:ec2:us-west-2:562936106217:transit-gateway/tgw-00586e7e9521682ab",
+            "State": "available",
+            "OwnerId": "562936106217",
+            "Description": "Transit Gateway - miuser025",
+            "CreationTime": "2023-03-09T00:16:29+00:00",
+            "Options": {
+                "AmazonSideAsn": 64512,
+                "AutoAcceptSharedAttachments": "disable",
+                "DefaultRouteTableAssociation": "enable",
+                "AssociationDefaultRouteTableId": "tgw-rtb-014f5e11eedb1e1e0",
+                "DefaultRouteTablePropagation": "enable",
+                "PropagationDefaultRouteTableId": "tgw-rtb-014f5e11eedb1e1e0",
+                "VpnEcmpSupport": "enable",
+                "DnsSupport": "enable",
+                "MulticastSupport": "disable"
+            },
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "miuser025-twg"
+                },
+                {
+                    "Key": "livefire-lab",
+                    "Value": "vmc-aws"
+                }
+            ]
+        },
+        {
+            "TransitGatewayId": "tgw-09ef6095205ca6f1e",
+            "TransitGatewayArn": "arn:aws:ec2:us-west-2:562936106217:transit-gateway/tgw-09ef6095205ca6f1e",
+            "State": "available",
+            "OwnerId": "562936106217",
+            "Description": "testing this out",
+            "CreationTime": "2023-03-20T16:37:38+00:00",
+            "Options": {
+                "AmazonSideAsn": 64512,
+                "AutoAcceptSharedAttachments": "disable",
+                "DefaultRouteTableAssociation": "enable",
+                "AssociationDefaultRouteTableId": "tgw-rtb-0b57e1256e4d2650f",
+                "DefaultRouteTablePropagation": "enable",
+                "PropagationDefaultRouteTableId": "tgw-rtb-0b57e1256e4d2650f",
+                "VpnEcmpSupport": "enable",
+                "DnsSupport": "enable",
+                "MulticastSupport": "disable"
+            },
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "miuse024-tgw"
+                },
+                {
+                    "Key": "livefire-lab",
+                    "Value": "vmc-aws"
+                }
+            ]
+        }
+    ]
+}

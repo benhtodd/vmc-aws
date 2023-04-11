@@ -1,0 +1,69 @@
+{
+    "PrefixLists": [
+        {
+            "PrefixListId": "pl-051da03e244c21d83",
+            "AddressFamily": "IPv4",
+            "State": "modify-complete",
+            "PrefixListArn": "arn:aws:ec2:us-west-2:022887304389:prefix-list/pl-051da03e244c21d83",
+            "PrefixListName": "miuser025-pf-list",
+            "MaxEntries": 10,
+            "Version": 3,
+            "Tags": [],
+            "OwnerId": "022887304389"
+        },
+        {
+            "PrefixListId": "pl-00a54069",
+            "AddressFamily": "IPv4",
+            "State": "create-complete",
+            "PrefixListArn": "arn:aws:ec2:us-west-2:aws:prefix-list/pl-00a54069",
+            "PrefixListName": "com.amazonaws.us-west-2.dynamodb",
+            "Tags": [],
+            "OwnerId": "AWS"
+        },
+        {
+            "PrefixListId": "pl-0721453c7ac4ec009",
+            "AddressFamily": "IPv4",
+            "State": "create-complete",
+            "PrefixListArn": "arn:aws:ec2:us-west-2:aws:prefix-list/pl-0721453c7ac4ec009",
+            "PrefixListName": "com.amazonaws.us-west-2.vpc-lattice",
+            "Tags": [],
+            "OwnerId": "AWS"
+        },
+        {
+            "PrefixListId": "pl-0cbf975b710a608ea",
+            "AddressFamily": "IPv6",
+            "State": "create-complete",
+            "PrefixListArn": "arn:aws:ec2:us-west-2:aws:prefix-list/pl-0cbf975b710a608ea",
+            "PrefixListName": "com.amazonaws.us-west-2.ipv6.vpc-lattice",
+            "Tags": [],
+            "OwnerId": "AWS"
+        },
+        {
+            "PrefixListId": "pl-0cc36273da754ebdc",
+            "AddressFamily": "IPv4",
+            "State": "create-complete",
+            "PrefixListArn": "arn:aws:ec2:us-west-2:aws:prefix-list/pl-0cc36273da754ebdc",
+            "PrefixListName": "com.amazonaws.global.groundstation",
+            "Tags": [],
+            "OwnerId": "AWS"
+        },
+        {
+            "PrefixListId": "pl-68a54001",
+            "AddressFamily": "IPv4",
+            "State": "create-complete",
+            "PrefixListArn": "arn:aws:ec2:us-west-2:aws:prefix-list/pl-68a54001",
+            "PrefixListName": "com.amazonaws.us-west-2.s3",
+            "Tags": [],
+            "OwnerId": "AWS"
+        },
+        {
+            "PrefixListId": "pl-82a045eb",
+            "AddressFamily": "IPv4",
+            "State": "create-complete",
+            "PrefixListArn": "arn:aws:ec2:us-west-2:aws:prefix-list/pl-82a045eb",
+            "PrefixListName": "com.amazonaws.global.cloudfront.origin-facing",
+            "Tags": [],
+            "OwnerId": "AWS"
+        }
+    ]
+}

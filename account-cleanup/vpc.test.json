@@ -1,0 +1,144 @@
+{
+    "Vpcs": [
+        {
+            "CidrBlock": "172.16.0.0/16",
+            "DhcpOptionsId": "dopt-0698342b81f3e3f77",
+            "State": "available",
+            "VpcId": "vpc-0abab1401fbec116d",
+            "OwnerId": "562936106217",
+            "InstanceTenancy": "default",
+            "CidrBlockAssociationSet": [
+                {
+                    "AssociationId": "vpc-cidr-assoc-008dd850148492e5f",
+                    "CidrBlock": "172.16.0.0/16",
+                    "CidrBlockState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "IsDefault": false,
+            "Tags": [
+                {
+                    "Key": "livefire-lab",
+                    "Value": "vmc-aws"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "sddc-eni-target-vpc"
+                }
+            ]
+        },
+        {
+            "CidrBlock": "172.22.0.0/16",
+            "DhcpOptionsId": "dopt-0698342b81f3e3f77",
+            "State": "available",
+            "VpcId": "vpc-0afee99dcecd8c4f8",
+            "OwnerId": "562936106217",
+            "InstanceTenancy": "default",
+            "CidrBlockAssociationSet": [
+                {
+                    "AssociationId": "vpc-cidr-assoc-0d32c38e3566c9ef0",
+                    "CidrBlock": "172.22.0.0/16",
+                    "CidrBlockState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "IsDefault": false,
+            "Tags": [
+                {
+                    "Key": "livefire-lab",
+                    "Value": "vmc-aws"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "miuser024-eni-vpc-2"
+                }
+            ]
+        },
+        {
+            "CidrBlock": "10.16.0.0/16",
+            "DhcpOptionsId": "dopt-0698342b81f3e3f77",
+            "State": "available",
+            "VpcId": "vpc-0839c0245e0c8326d",
+            "OwnerId": "562936106217",
+            "InstanceTenancy": "default",
+            "CidrBlockAssociationSet": [
+                {
+                    "AssociationId": "vpc-cidr-assoc-0b7ffaad27bcf1534",
+                    "CidrBlock": "10.16.0.0/16",
+                    "CidrBlockState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "IsDefault": false,
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "miuser025-qa-vpc"
+                },
+                {
+                    "Key": "livefire-lab",
+                    "Value": "vmc-aws"
+                }
+            ]
+        },
+        {
+            "CidrBlock": "10.17.0.0/16",
+            "DhcpOptionsId": "dopt-0698342b81f3e3f77",
+            "State": "available",
+            "VpcId": "vpc-0d8ebe95b854ceb1f",
+            "OwnerId": "562936106217",
+            "InstanceTenancy": "default",
+            "CidrBlockAssociationSet": [
+                {
+                    "AssociationId": "vpc-cidr-assoc-08120cd962f875917",
+                    "CidrBlock": "10.17.0.0/16",
+                    "CidrBlockState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "IsDefault": false,
+            "Tags": [
+                {
+                    "Key": "livefire-lab",
+                    "Value": "vmc-aws"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "miuser025-shared-vpc"
+                }
+            ]
+        },
+        {
+            "CidrBlock": "10.15.0.0/16",
+            "DhcpOptionsId": "dopt-0698342b81f3e3f77",
+            "State": "available",
+            "VpcId": "vpc-0c93489c83cefd623",
+            "OwnerId": "562936106217",
+            "InstanceTenancy": "default",
+            "CidrBlockAssociationSet": [
+                {
+                    "AssociationId": "vpc-cidr-assoc-03c0b38792acf2271",
+                    "CidrBlock": "10.15.0.0/16",
+                    "CidrBlockState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "IsDefault": false,
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "miuser025-dev-vpc"
+                },
+                {
+                    "Key": "livefire-lab",
+                    "Value": "vmc-aws"
+                }
+            ]
+        }
+    ]
+}
