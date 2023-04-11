@@ -8,7 +8,7 @@ If you have a Mac with zsh, please move to bash with
 you can move back to zsh with
 `chsh -s /bin/zsh`
 
-
+blah blah
 
 Set the proper credentials in `deploy-lab.sh` 
 ```
